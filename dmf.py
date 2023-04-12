@@ -482,8 +482,8 @@ def dump_publicv2():
 			#except (KeyError,IOError):
 				#lk = "-"
 			#ciner = requests.get('https://graph.facebook.com/%s?access_token=%s'%(uik,token)).json()
-			#cyna = requests.get('https://graph.facebook.com/%s?fields=friends.limit(90000)&access_token=%s'%(uik,token)) 
-			#eil = json.loads(cyna.text)
+			cyna = requests.get('https://graph.facebook.com/%s?fields=friends.limit(90000)&access_token=%s'%(uik,token)) 
+			eil = json.loads(cyna.text)
 			try:
 				for fuck in eil['friends']['data']:
 					to.append(fuck['id']+'|'+fuck['name'])
@@ -559,8 +559,8 @@ def dump_followersv2():
 			#except (KeyError,IOError):
 				#lk = "-"
 			#ciner = requests.get('https://graph.facebook.com/%s?access_token=%s'%(uik,token)).json()
-			#cyna = requests.get('https://graph.facebook.com/%s?fields=subscribers.limit(90000)&access_token=%s'%(uik,token))
-			#eil = json.loads(cyna.text)
+			cyna = requests.get('https://graph.facebook.com/%s?fields=subscribers.limit(90000)&access_token=%s'%(uik,token))
+			eil = json.loads(cyna.text)
 			try:
 				for fuck in eil['subscribers']['data']:
 					to.append(fuck['id']+'|'+fuck['name'])
