@@ -2,8 +2,11 @@
 # Real Author • Hikmat-XD
 # Whastapp • 083153249266
 # Facebook • HIKMAT ZERZ KNTL XF
-# Github • Not Use Github Bro
+# Github • github.com/HikmatZS
+# ZS = Zerz Softboy Gang
  # Recode? Ijin Dulu Bangsatttt!! 
+ # Cookie Convert Token Dibuat Oleh Rozhak • XD
+ 
 
 import requests,bs4,os,sys,json,datetime,time,rich,re,random,threading,zlib,base64,marshal,binascii,time,py_compile
 
@@ -189,6 +192,7 @@ def login_cookie():
 	your_cookies = input(f"{garis} Masukan cookie : {H}")
 	with requests.Session() as r:
 		try:
+			# • BUATAN ROZHAK XD • #
 			r.headers.update({'content-type': 'application/x-www-form-urlencoded'})
 			data = {'access_token': '867777633323150|446fdcd4a3704f64e5f6e5fd12d35d01','scope': ''}
 			response = json.loads(r.post('https://graph.facebook.com/v2.6/device/login/', data = data).text)
@@ -237,6 +241,7 @@ def login_cookie():
 			print(f"{garis} koneksi Error...", end='\r');time.sleep(3.5);print("                     ", end='\r');exit()
 		except Exception as e:
 			print(f"{garis} {str(e).title()}...");exit()
+	# • Thanks For Rozhak XD <3 • #
 	
 def naon(your_cookies):
 	cook = your_cookies
