@@ -1,3 +1,4 @@
+# # # # # # # # # # # # # # # # #
  # Team ALL STAR • Corporation
 # Real Author • Hikmat-XD
 # Whastapp • 083153249266
@@ -6,6 +7,7 @@
 # ZS = Zerz Softboy Gang
  # Recode? Ijin Dulu Bangsatttt!! 
  # Cookie Convert Token Dibuat Oleh Rozhak • XD
+# # # # # # # # # # # # # # # # #
  
 
 import requests,bs4,os,sys,json,datetime,time,rich,re,random,threading,zlib,base64,marshal,binascii,time,py_compile
@@ -18,10 +20,6 @@ from rich import print as vprint
 from random import randint
 from concurrent.futures import ThreadPoolExecutor as tread
 from bs4 import BeautifulSoup as biutipulsop
-
-komen = []
-komengrup = []
-
 
 FR = {'1':'januari','2':'februari','3':'maret','4':'april','5':'mei','6':'juni','7':'juli','8':'agustus','9':'september','10':'oktober','11':'november','12':'desember'}
 tgl = datetime.datetime.now().day
@@ -664,3 +662,6 @@ def check_ingfo_akun():
 
 
 cek_cookie()
+
+# MAU NGAPAIN COBA BANG? 
+# Usahakan Mau Rekod Ijin Dulu:) 
