@@ -116,7 +116,7 @@ def banner():
 """)
 
 def cek_cookie():
-	os.system("cd dmf")
+	os.system("cd cdmf")
 	os.system("git pull")
 	try:
 		token  = open('token.txt','r').read()
