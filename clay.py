@@ -1,10 +1,7 @@
 # # # # # # # # # # # # # # # # #
  # Team ALL STAR • Corporation
-# Real Author • Hikmat-XD
-# Whastapp • 083153249266
-# Facebook • HIKMAT ZERZ KNTL XF
-# Github • github.com/HikmatZS
-# ZS = Zerz Softboy Gang
+# Real Author • CLAOUPY OFFICIALL
+# Github • github.com/CLAYS-AI
  # Recode? Ijin Dulu Bangsatttt!! 
  # Cookie Convert Token Dibuat Oleh Rozhak • XD
 # # # # # # # # # # # # # # # # #
