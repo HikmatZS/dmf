@@ -1,7 +1,5 @@
 • Dmf
 Dump Multi Fast
-
-
 • > Menu My Script Dmf
 ```
 • Dump ID Public
@@ -24,5 +22,3 @@ $ cd dmf
 $ git pull
 $ python clay.py
 ```
-
-
